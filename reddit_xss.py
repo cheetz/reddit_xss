@@ -38,5 +38,7 @@ class Lookup:
 
 if __name__ == '__main__':
         url = "http://www.reddit.com/r/xss"
+	print "[*] Reddit XSS scrape in progress"
+	print "[*] Press CTRL-C to Stop.  Output will be saved to output_xss.txt"
         app = Lookup()
         app.run(url)
